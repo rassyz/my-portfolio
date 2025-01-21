@@ -10,19 +10,19 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/public/images/buah.png",
+    imgSrc: "/images/buah.png",
     title: "Full stack e-commerce 'Just Juice'",
     tags: ["MVC", "Development", "Laravel", "Bootstrap 5", "Mid Trans"],
     projectLink: "",
   },
   {
-    imgSrc: "/public/images/happyly.png",
+    imgSrc: "/images/happyly.png",
     title: "Web Mental Health",
     tags: ["Bootstrap 5", "Firebase Auth", "Firebase Realtime Database"],
     projectLink: "https://happyly-20978.web.app/",
   },
   {
-    imgSrc: "/public/images/wellnes.png",
+    imgSrc: "/images/wellnes.png",
     title: "Web Reproductive Health",
     tags: ["Bootstrap 5", "Firebase Auth", "Firebase Realtime Database"],
     projectLink: "https://reproductive-wellnes-139ec.web.app/",

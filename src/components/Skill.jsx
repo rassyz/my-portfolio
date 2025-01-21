@@ -10,82 +10,82 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/public/images/html5.svg",
+    imgSrc: "/images/html5.svg",
     label: "HTML",
     desc: "Markup Language",
   },
   {
-    imgSrc: "/public/images/css3.svg",
+    imgSrc: "/images/css3.svg",
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "/public/images/javascript.svg",
+    imgSrc: "/images/javascript.svg",
     label: "JavaScript",
     desc: "Interaction",
   },
   {
-    imgSrc: "/public/images/nginx.svg",
+    imgSrc: "/images/nginx.svg",
     label: "Nginx",
     desc: "Web Server",
   },
   {
-    imgSrc: "/public/images/php.svg",
+    imgSrc: "/images/php.svg",
     label: "PHP",
     desc: "Server-side Language",
   },
   {
-    imgSrc: "/public/images/mysql2.svg",
+    imgSrc: "/images/mysql2.svg",
     label: "MySQL",
     desc: "Database",
   },
   {
-    imgSrc: "/public/images/laravel2.svg",
+    imgSrc: "/images/laravel2.svg",
     label: "Laravel",
     desc: "PHP Framework",
   },
   {
-    imgSrc: "/public/images/docker.svg",
+    imgSrc: "/images/docker.svg",
     label: "Docker",
     desc: "Containerization",
   },
   {
-    imgSrc: "/public/images/github.svg",
+    imgSrc: "/images/github.svg",
     label: "Github",
     desc: "Version Control",
   },
   {
-    imgSrc: "/public/images/linux.svg",
+    imgSrc: "/images/linux.svg",
     label: "Linux",
     desc: "Operating System",
   },
   {
-    imgSrc: "/public/images/nodejs.svg",
+    imgSrc: "/images/nodejs.svg",
     label: "Node JS",
     desc: "(still learning)",
   },
   {
-    imgSrc: "/public/images/react.svg",
+    imgSrc: "/images/react.svg",
     label: "React JS",
     desc: "(still learning)",
   },
   {
-    imgSrc: "/public/images/tailwindcss.svg",
+    imgSrc: "/images/tailwindcss.svg",
     label: "Tailwind CSS",
     desc: "(still learning)",
   },
   {
-    imgSrc: "/public/images/flutter.svg",
+    imgSrc: "/images/flutter.svg",
     label: "Flutter",
     desc: "(still learning)",
   },
   {
-    imgSrc: "/public/images/bootstrap.svg",
+    imgSrc: "/images/bootstrap.svg",
     label: "Bootstrap 5",
     desc: "CSS Framework",
   },
   {
-    imgSrc: "/public/images/firebase.svg",
+    imgSrc: "/images/firebase.svg",
     label: "Firebase",
     desc: "Cloud Services",
   },

@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box 2-9 h-9 rounded-lg">
               <img
-                src="/public/images/avatar-rasyid.jpg"
+                src="/images/avatar-rasyid.jpg"
                 width={40}
                 height={40}
                 alt="Foto Rasyid Abdul Ra'uf"
@@ -53,7 +53,7 @@ const Hero = () => {
           via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden"
           >
             <img
-              src="/public/images/rasyid.png"
+              src="/images/rasyid.png"
               width={656}
               height={800}
               alt="Rasyid Abdul Ra'uf"
