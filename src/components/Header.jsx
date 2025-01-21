@@ -30,7 +30,7 @@ const Header = () => {
         <h1>
           <a href="/" className="Logo">
             <img
-              src="public/images/logo.svg"
+              src="/images/logo.svg"
               width={40}
               height={40}
               alt="Rasyid Abdul Ra'uf"
