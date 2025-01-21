@@ -45,6 +45,10 @@ const socials = [
     label: "Instagram",
     href: "https://www.instagram.com/rasyidrra_/",
   },
+  {
+    label: "WhatsApp",
+    href: "https://wa.me/6285892806050",
+  },
 ];
 
 const Footer = () => {
