@@ -10,7 +10,7 @@ const aboutItems = [
   },
   {
     label: "Years of experience",
-    number: 1,
+    number: 0,
   },
 ];
 
@@ -20,12 +20,17 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="tetx-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Rasyid Abdul Ra'uf, a student informatics
-            engineering at Esa Unggul University, Tangerang. I have a passion
-            for web development and love to create new things. I am a
-            self-taught developer and have been working in the field for over 2
-            years. I am a quick learner and always eager to learn new
-            technologies.
+            Welcome! I&apos;m Rasyid Abdul Ra'uf, a Informatics Engineering
+            student at Esa Unggul University, Tangerang. I have a strong passion
+            for technology and programming. Currently, I’m diving deeper into
+            the world of web development and mobile application development to
+            build a solid foundation for my career in the tech industry. I
+            believe technology has the power to drive positive change, and I’m
+            excited to contribute to meaningful innovations. Through continuous
+            learning and hard work, I strive to create impactful and practical
+            solutions for real-world challenges. Outside academics, I’m always
+            eager to expand my skills through projects, collaborations, and
+            exploring new technologies. Let’s connect and share ideas!
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
