@@ -43,7 +43,7 @@ const Review = () => {
       scrollTrigger: {
         trigger: ".scrub-slide",
         start: "0% 80%",
-        end: "400% 80%",
+        end: "1000% 80%",
         scrub: true,
       },
       x: "-1000",
