@@ -42,7 +42,7 @@ const Hero = () => {
               href="/images/cv-rasyid.pdf"
               label="Download CV"
               icon="download"
-              download
+              download={true}
             />
             <ButtonOutline
               href="#about"
