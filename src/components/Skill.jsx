@@ -56,7 +56,7 @@ const skillItem = [
   },
   {
     imgSrc: "/images/linux.svg",
-    label: "Linux",
+    label: "WSL2",
     desc: "Operating System",
   },
   {
