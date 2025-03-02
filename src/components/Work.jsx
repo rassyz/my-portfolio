@@ -13,7 +13,7 @@ const works = [
     imgSrc: "/images/buah.png",
     title: "Full stack e-commerce 'Just Juice'",
     tags: ["MVC", "Development", "Laravel", "Bootstrap 5", "Mid Trans"],
-    projectLink: "",
+    projectLink: "https://github.com/rassyz/toko-jus",
   },
   {
     imgSrc: "/images/happyly.png",
@@ -26,6 +26,12 @@ const works = [
     title: "Web Reproductive Health",
     tags: ["Bootstrap 5", "Firebase Auth", "Firebase Realtime Database"],
     projectLink: "https://reproductive-wellnes-139ec.web.app/",
+  },
+  {
+    imgSrc: "/images/shoes.png",
+    title: "Web E-Commerce Sepatu",
+    tags: ["CMS", "Laravel", "Filament", "Bootstrap 5"],
+    projectLink: "https://github.com/rassyz/R4R-Shoes",
   },
 ];
 
