@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
         <div>
           <div className="flex items-center gap-3">
-            <figure className="img-box 2-9 h-9 rounded-lg">
+            <figure className="img-box w-9 h-9 rounded-lg shrink-0">
               <img
                 src="/images/avatar-rasyid.jpg"
                 width={40}
