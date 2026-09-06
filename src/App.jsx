@@ -1,5 +1,5 @@
 /**
- * @copyright 2025 rassyz
+ * @copyright 2026 rassyz
  * @license Apache-2.0
  */
 
@@ -49,7 +49,13 @@ const App = () => {
   });
 
   return (
-    <ReactLenis root>
+    <ReactLenis
+      root
+      options={{
+        anchors: true,
+        duration: 1.2,
+      }}
+    >
       <Header />
       <main>
         <Hero />
