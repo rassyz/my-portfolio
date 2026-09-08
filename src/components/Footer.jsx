@@ -39,7 +39,7 @@ const socials = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/rasyid-abdul-ra-uf-8b580626b/",
+    href: "https://www.linkedin.com/in/rasyid-abdul-ra-uf/",
   },
   {
     label: "Instagram",
@@ -113,7 +113,8 @@ const Footer = () => {
           </a>
 
           <p className="text-zinc-500 text-sm reveal-up">
-            &copy; 2026 <span className="text-zinc-200">rassyz</span>
+            &copy; 2026{" "}
+            <span className="text-zinc-200">Rasyid Abdul Ra'uf</span>
           </p>
         </div>
       </div>
