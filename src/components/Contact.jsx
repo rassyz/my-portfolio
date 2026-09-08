@@ -23,7 +23,7 @@ const socialLinks = [
     alt: "GitHub",
   },
   {
-    href: "https://www.linkedin.com/in/rasyid-abdul-ra-uf-8b580626b/",
+    href: "https://www.linkedin.com/in/rasyid-abdul-ra-uf/",
     icon: (
       <svg
         width="24"

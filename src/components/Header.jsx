@@ -27,7 +27,7 @@ const Header = () => {
       flex justify-between items-center md:px-6 md:grid 
       md:grid-cols-[1fr,3fr,1fr]"
       >
-        <h1>
+        <div>
           <a href="/" className="Logo">
             <img
               src="/images/logo.svg"
@@ -36,7 +36,7 @@ const Header = () => {
               alt="Rasyid Abdul Ra'uf"
             />
           </a>
-        </h1>
+        </div>
 
         <div className="relative md:justify-self-center">
           <button
