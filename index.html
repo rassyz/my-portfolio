@@ -1,42 +1,121 @@
 <!doctype html>
+
 <html
   lang="en"
   class="scrollbar-thin scrollbar-track-zinc-800 scrollbar-thumb-zinc-500"
 >
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rasyid Abdul Ra'uf - Portofolio</title>
 
-    <!-- 
-    - Favicon 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      - Primary SEO
     -->
-    <link
-      rel="shortcut icon"
-      href="public/images/favicon.svg"
-      type="image/svg+xml"
+    <title>Rasyid Abdul Ra'uf — Portfolio</title>
+
+    <meta
+      name="description"
+      content="Rasyid Abdul Ra'uf — Informatics Engineering student, web developer, and technology enthusiast. Explore his portfolio, projects, skills, and experience."
     />
 
-    <!-- 
-    - Google Font Link
+    <meta name="author" content="Rasyid Abdul Ra'uf" />
+
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://rassyz.my.id/" />
+
+    <!--
+      - Favicon
+    -->
+    <link rel="shortcut icon" href="/images/favicon.svg" type="image/svg+xml" />
+
+    <!--
+      - Open Graph / Facebook / WhatsApp
+    -->
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="Rasyid Abdul Ra'uf — Portfolio" />
+
+    <meta
+      property="og:description"
+      content="Official portfolio of Rasyid Abdul Ra'uf — Informatics Engineering student, web developer, and technology enthusiast."
+    />
+
+    <meta property="og:url" content="https://rassyz.my.id/" />
+
+    <meta property="og:site_name" content="Rasyid Abdul Ra'uf" />
+
+    <meta
+      property="og:image"
+      content="https://rassyz.my.id/images/avatar-rasyid.jpg"
+    />
+
+    <meta property="og:image:alt" content="Rasyid Abdul Ra'uf" />
+
+    <!--
+      - Twitter / X
+    -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="twitter:title" content="Rasyid Abdul Ra'uf — Portfolio" />
+
+    <meta
+      name="twitter:description"
+      content="Official portfolio of Rasyid Abdul Ra'uf — Informatics Engineering student, web developer, and technology enthusiast."
+    />
+
+    <meta
+      name="twitter:image"
+      content="https://rassyz.my.id/images/avatar-rasyid.jpg"
+    />
+
+    <meta name="twitter:image:alt" content="Rasyid Abdul Ra'uf" />
+
+    <!--
+      - Google Font Link
     -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
 
-    <!-- 
-    - Materials Symbol Rounded
+    <!--
+      - Materials Symbol Rounded
     -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
     />
+
+    <!--
+      - Person Structured Data
+      - Helps search engines understand the identity
+      - represented by this website.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://rassyz.my.id/#person",
+        "name": "Rasyid Abdul Ra'uf",
+        "url": "https://rassyz.my.id/",
+        "jobTitle": "Informatics Engineering Student",
+        "sameAs": [
+          "https://www.linkedin.com/in/rasyid-abdul-ra-uf/",
+          "https://github.com/rassyz"
+        ]
+      }
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

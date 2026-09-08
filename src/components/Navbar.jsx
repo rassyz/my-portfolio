@@ -6,32 +6,65 @@
 /**
  * Node Modules
  */
+
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
 const Navbar = ({ navOpen }) => {
-  const lastActiveLink = useRef();
-  const activeBox = useRef();
+  const lastActiveLink = useRef(null);
+  const activeBox = useRef(null);
 
   const initActiveBox = () => {
-    activeBox.current.style.top = lastActiveLink.current.offsetTop + "px";
-    activeBox.current.style.left = lastActiveLink.current.offsetLeft + "px";
-    activeBox.current.style.width = lastActiveLink.current.offsetWidth + "px";
-    activeBox.current.style.height = lastActiveLink.current.offsetHeight + "px";
+    const activeLink = lastActiveLink.current;
+    const box = activeBox.current;
+
+    // Prevent error if the elements are not ready yet
+    if (!activeLink || !box) return;
+
+    box.style.top = activeLink.offsetTop + "px";
+    box.style.left = activeLink.offsetLeft + "px";
+    box.style.width = activeLink.offsetWidth + "px";
+    box.style.height = activeLink.offsetHeight + "px";
   };
 
-  useEffect(initActiveBox, []);
-  window.addEventListener("resize", initActiveBox);
+  useEffect(() => {
+    // Wait until the DOM elements are ready
+    requestAnimationFrame(() => {
+      initActiveBox();
+    });
+
+    const handleResize = () => {
+      initActiveBox();
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup event listener when component unmounts
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const activeCurrentLink = (event) => {
-    lastActiveLink.current?.classList.remove("active");
-    event.target.classList.add("active");
-    lastActiveLink.current = event.target;
+    const clickedLink = event.currentTarget;
+    const box = activeBox.current;
 
-    activeBox.current.style.top = event.target.offsetTop + "px";
-    activeBox.current.style.left = event.target.offsetLeft + "px";
-    activeBox.current.style.width = event.target.offsetWidth + "px";
-    activeBox.current.style.height = event.target.offsetHeight + "px";
+    if (!clickedLink || !box) return;
+
+    // Remove active class from previous link
+    lastActiveLink.current?.classList.remove("active");
+
+    // Add active class to clicked link
+    clickedLink.classList.add("active");
+
+    // Store current active link
+    lastActiveLink.current = clickedLink;
+
+    // Move active box
+    box.style.top = clickedLink.offsetTop + "px";
+    box.style.left = clickedLink.offsetLeft + "px";
+    box.style.width = clickedLink.offsetWidth + "px";
+    box.style.height = clickedLink.offsetHeight + "px";
   };
 
   const navItems = [
@@ -76,6 +109,7 @@ const Navbar = ({ navOpen }) => {
           {label}
         </a>
       ))}
+
       <div className="active-box" ref={activeBox}></div>
     </nav>
   );
