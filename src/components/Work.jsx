@@ -87,17 +87,14 @@ const Work = () => {
   return (
     <section id="work" className="section">
       <div className="container">
-        {/* Heading */}
         <h2 className="headline-2 reveal-up">Selected Projects</h2>
 
-        {/* Subtitle + Filter */}
         <div className="flex flex-col gap-5 mt-3 mb-8 md:flex-row md:items-end md:justify-between">
           <p className="text-zinc-400 max-w-[50ch] reveal-up">
             A selection of projects showcasing my experience in data analysis
             and web development.
           </p>
 
-          {/* Filter Buttons */}
           <div className="flex flex-wrap items-center gap-2">
             {filterItems.map(({ label, value }) => (
               <button
@@ -118,7 +115,6 @@ const Work = () => {
           </div>
         </div>
 
-        {/* Project Cards */}
         <div
           key={activeFilter}
           className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]"

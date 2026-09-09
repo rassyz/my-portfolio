@@ -30,7 +30,7 @@ const skillItem = [
     category: ["data-analyst"],
   },
   {
-    imgSrc: "/images/powerbi.svg",
+    imgSrc: "/images/power-bi.svg",
     label: "Power BI",
     desc: "Data Visualization & BI",
     category: ["data-analyst"],
@@ -48,7 +48,7 @@ const skillItem = [
     category: ["data-analyst", "web-development"],
   },
   {
-    imgSrc: "/images/navicat.svg",
+    imgSrc: "/images/navicat.png",
     label: "Navicat Premium",
     desc: "Database Management",
     category: ["data-analyst"],
@@ -171,14 +171,12 @@ const Skill = () => {
       <div className="container">
         <h2 className="headline-2 reveal-up">Essential Tools I Use</h2>
 
-        {/* Description + Filter */}
         <div className="flex flex-col gap-5 mt-3 mb-8 md:flex-row md:items-end md:justify-between">
           <p className="text-zinc-400 max-w-[50ch] reveal-up">
             A collection of tools I use for data analysis, visualization, and
             web development.
           </p>
 
-          {/* Filter Buttons */}
           <div className="flex flex-wrap items-center gap-2">
             {filterItems.map(({ label, value }) => (
               <button
@@ -199,7 +197,6 @@ const Skill = () => {
           </div>
         </div>
 
-        {/* Skill Cards */}
         <div
           key={activeFilter}
           className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]"
