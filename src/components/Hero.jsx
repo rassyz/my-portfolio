@@ -10,8 +10,8 @@ import { ButtonPrimary, ButtonOutline } from "./Button";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-28 lg:pt-36">
-      <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
+    <section id="home" className="pt-24 lg:pt-36">
+      <div className="container items-center lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:gap-10">
         <div>
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg shrink-0">
@@ -32,9 +32,20 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Rasyid Abdul Ra'uf, Aspiring Data Analyst with a Web Development
-            Background
+          <h1 className="headline-1 mt-5 mb-8 lg:mb-10">
+            <span className="block lg:whitespace-nowrap">
+              Rasyid Abdul Ra'uf,
+            </span>
+
+            <span className="block lg:whitespace-nowrap">
+              Aspiring Data Analyst
+            </span>
+
+            <span className="block lg:whitespace-nowrap">
+              with a Web Development
+            </span>
+
+            <span className="block">Background</span>
           </h1>
 
           <p className="max-w-[55ch] text-zinc-400 text-base leading-relaxed mb-8 lg:mb-10">

@@ -19,7 +19,7 @@ const sitemap = [
     href: "#about",
   },
   {
-    label: "Work",
+    label: "Projects",
     href: "#work",
   },
   // {
