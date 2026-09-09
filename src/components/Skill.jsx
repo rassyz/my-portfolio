@@ -35,12 +35,12 @@ const skillItem = [
     desc: "Data Visualization & BI",
     category: ["data-analyst"],
   },
-  {
-    imgSrc: "/images/python.svg",
-    label: "Python",
-    desc: "Data Analysis",
-    category: ["data-analyst"],
-  },
+  // {
+  //   imgSrc: "/images/python.svg",
+  //   label: "Python",
+  //   desc: "Data Analysis",
+  //   category: ["data-analyst"],
+  // },
   {
     imgSrc: "/images/mysql2.svg",
     label: "MySQL",

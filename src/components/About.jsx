@@ -23,13 +23,12 @@ const About = () => {
             Welcome! I&apos;m Rasyid Abdul Ra'uf, an aspiring Data Analyst with
             a background in Informatics Engineering and web development. I’m
             interested in turning data into meaningful insights that can support
-            better business decisions. I work with SQL, Python, Excel, and Power
-            BI to explore, clean, analyze, and visualize data. My background in
-            web development also gives me a strong technical foundation and
-            helps me understand how data flows through applications and
-            databases. I’m continuously building practical projects to
-            strengthen my analytical skills and prepare for a career in data
-            analytics.
+            better business decisions. I work with SQL, Excel, and Power BI to
+            explore, clean, analyze, and visualize data. My background in web
+            development also gives me a strong technical foundation and helps me
+            understand how data flows through applications and databases. I’m
+            continuously building practical projects to strengthen my analytical
+            skills and prepare for a career in data analytics.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

@@ -49,8 +49,8 @@ const Hero = () => {
           </h1>
 
           <p className="max-w-[55ch] text-zinc-400 text-base leading-relaxed mb-8 lg:mb-10">
-            Turning data into actionable insights through SQL, Python, Excel,
-            and Power BI, supported by a strong foundation in web development.
+            Turning data into actionable insights through SQL, Excel, and Power
+            BI, supported by a strong foundation in web development.
           </p>
 
           <div className="flex items-center gap-3">
