@@ -5,12 +5,12 @@
 
 const aboutItems = [
   {
-    label: "Project done",
+    label: "Projects",
     number: 5,
   },
   {
-    label: "Years of experience",
-    number: 0,
+    label: "Analytics Tools",
+    number: 4,
   },
 ];
 
@@ -19,18 +19,17 @@ const About = () => {
     <section id="about" className="section">
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
-          <p className="tetx-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Rasyid Abdul Ra'uf, a Informatics Engineering
-            student at Esa Unggul University, Tangerang. I have a strong passion
-            for technology and programming. Currently, I’m diving deeper into
-            the world of web development and mobile application development to
-            build a solid foundation for my career in the tech industry. I
-            believe technology has the power to drive positive change, and I’m
-            excited to contribute to meaningful innovations. Through continuous
-            learning and hard work, I strive to create impactful and practical
-            solutions for real-world challenges. Outside academics, I’m always
-            eager to expand my skills through projects, collaborations, and
-            exploring new technologies. Let’s connect and share ideas!
+          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
+            Welcome! I&apos;m Rasyid Abdul Ra'uf, an aspiring Data Analyst with
+            a background in Informatics Engineering and web development. I’m
+            interested in turning data into meaningful insights that can support
+            better business decisions. I work with SQL, Python, Excel, and Power
+            BI to explore, clean, analyze, and visualize data. My background in
+            web development also gives me a strong technical foundation and
+            helps me understand how data flows through applications and
+            databases. I’m continuously building practical projects to
+            strengthen my analytical skills and prepare for a career in data
+            analytics.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

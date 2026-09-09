@@ -22,12 +22,12 @@ const sitemap = [
     label: "Work",
     href: "#work",
   },
+  // {
+  //   label: "Reviews",
+  //   href: "#reviews",
+  // },
   {
-    label: "Reviews",
-    href: "#reviews",
-  },
-  {
-    label: "Contact me",
+    label: "Contact",
     href: "#contact",
   },
 ];
@@ -58,7 +58,7 @@ const Footer = () => {
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
             <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
-              Let&apos;s work together today!
+              Let&apos;s turn data into insights!
             </h2>
 
             <ButtonPrimary

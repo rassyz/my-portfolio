@@ -86,8 +86,8 @@ const Contact = () => {
           <h2 className="headline-2 lg:max-w-[12ch] reveal-up">Contact Me</h2>
 
           <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
-            If you have any questions or want to work together, feel free to
-            contact me.
+            I'm open to Data Analyst opportunities, collaborations, and
+            projects. Feel free to get in touch with me.
           </p>
 
           <div className="flex items-center gap-2 mt-auto">
@@ -121,7 +121,7 @@ const Contact = () => {
               id="name"
               autoComplete="name"
               required
-              placeholder="Rasyid Abdul Ra'uf"
+              placeholder="Enter your name"
               className="text-field reveal-up"
             />
           </div>
@@ -137,7 +137,7 @@ const Contact = () => {
               id="email"
               autoComplete="email"
               required
-              placeholder="rasyidabdulrauf@example.com"
+              placeholder="Enter your email"
               className="text-field  reveal-up"
             />
           </div>
@@ -150,7 +150,7 @@ const Contact = () => {
             <textarea
               name="message"
               id="message"
-              placeholder="Hi!"
+              placeholder="Tell me about your project or opportunity..."
               required
               className="text-field resize-y min-h-32 max-h-80 mb-4 reveal-up"
             ></textarea>

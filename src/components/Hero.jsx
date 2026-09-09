@@ -28,14 +28,19 @@ const Hero = () => {
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
-              Available for internship
+              Open to Data Analyst Internships
             </div>
           </div>
 
           <h1 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Rasyid Abdul Ra'uf, Informatics Engineering Student at Esa Unggul
-            University
+            Rasyid Abdul Ra'uf, Aspiring Data Analyst with a Web Development
+            Background
           </h1>
+
+          <p className="max-w-[55ch] text-zinc-400 text-base leading-relaxed mb-8 lg:mb-10">
+            Turning data into actionable insights through SQL, Python, Excel,
+            and Power BI, supported by a strong foundation in web development.
+          </p>
 
           <div className="flex items-center gap-3">
             <ButtonPrimary
@@ -45,8 +50,8 @@ const Hero = () => {
               download={true}
             />
             <ButtonOutline
-              href="#about"
-              label="Scroll down"
+              href="#work"
+              label="View Projects"
               icon="arrow_downward"
             />
           </div>
