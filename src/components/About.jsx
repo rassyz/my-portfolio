@@ -9,8 +9,8 @@ const aboutItems = [
     number: 5,
   },
   {
-    label: "Analytics Tools",
-    number: 4,
+    label: "Technical Tools",
+    number: 8,
   },
 ];
 
@@ -20,15 +20,20 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Rasyid Abdul Ra'uf, an aspiring Data Analyst with
-            a background in Informatics Engineering and web development. I’m
-            interested in turning data into meaningful insights that can support
-            better business decisions. I work with SQL, Excel, and Power BI to
-            explore, clean, analyze, and visualize data. My background in web
-            development also gives me a strong technical foundation and helps me
-            understand how data flows through applications and databases. I’m
-            continuously building practical projects to strengthen my analytical
-            skills and prepare for a career in data analytics.
+            Welcome! I&apos;m Rasyid Abdul Ra'uf, an Informatics Engineering
+            graduate building my career in Data Analytics and Quality Assurance.
+            I work with SQL, Excel, and Power BI to explore, clean, validate,
+            analyze, and visualize data, while my software development
+            background gives me a practical understanding of databases,
+            application data flows, business logic, and REST APIs. Through
+            development and academic projects, I have also gained hands-on
+            experience in functional testing, input validation, API response
+            checking, and role-based access validation. This combination allows
+            me to approach problems from both a data and application
+            perspective. I’m continuously building practical projects to
+            strengthen my skills in data analytics, data validation, API
+            testing, and application quality while preparing for opportunities
+            in Data Analytics and QA.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

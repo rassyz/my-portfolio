@@ -35,17 +35,17 @@ const skillItem = [
     desc: "Data Visualization & BI",
     category: ["data-analyst"],
   },
-  // {
-  //   imgSrc: "/images/python.svg",
-  //   label: "Python",
-  //   desc: "Data Analysis",
-  //   category: ["data-analyst"],
-  // },
+  {
+    imgSrc: "/images/postman.png",
+    label: "Postman",
+    desc: "REST API Testing",
+    category: ["data-analyst", "development"],
+  },
   {
     imgSrc: "/images/mysql2.svg",
     label: "MySQL",
     desc: "Database & SQL",
-    category: ["data-analyst", "web-development"],
+    category: ["data-analyst", "development"],
   },
   {
     imgSrc: "/images/navicat.png",
@@ -61,85 +61,85 @@ const skillItem = [
     imgSrc: "/images/html5.svg",
     label: "HTML",
     desc: "Markup Language",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/css3.svg",
     label: "CSS",
     desc: "User Interface",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/javascript.svg",
     label: "JavaScript",
     desc: "Interaction",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/nginx.svg",
     label: "Nginx",
     desc: "Web Server",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/php.svg",
     label: "PHP",
     desc: "Server-side Language",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/laravel2.svg",
     label: "Laravel",
     desc: "PHP Framework",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/docker.svg",
     label: "Docker",
     desc: "Containerization",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/github.svg",
     label: "Github",
     desc: "Version Control",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/linux.svg",
     label: "WSL2",
     desc: "Operating System",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/react.svg",
     label: "React JS",
     desc: "JavaScript Library",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/tailwindcss.svg",
     label: "Tailwind CSS",
     desc: "CSS Framework",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/flutter.svg",
     label: "Flutter",
     desc: "UI Framework",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/bootstrap.svg",
     label: "Bootstrap 5",
     desc: "CSS Framework",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/firebase.svg",
     label: "Firebase",
     desc: "Cloud Services",
-    category: ["web-development"],
+    category: ["development"],
   },
 ];
 
@@ -149,12 +149,12 @@ const filterItems = [
     value: "all",
   },
   {
-    label: "Data Analyst",
+    label: "Data & SQL",
     value: "data-analyst",
   },
   {
-    label: "Web Development",
-    value: "web-development",
+    label: "Development",
+    value: "development",
   },
 ];
 
@@ -173,8 +173,8 @@ const Skill = () => {
 
         <div className="flex flex-col gap-5 mt-3 mb-8 md:flex-row md:items-end md:justify-between">
           <p className="text-zinc-400 max-w-[50ch] reveal-up">
-            A collection of tools I use for data analysis, visualization, and
-            web development.
+            A collection of tools I use for data analysis, data validation, API
+            testing, database management, and application development.
           </p>
 
           <div className="flex flex-wrap items-center gap-2">

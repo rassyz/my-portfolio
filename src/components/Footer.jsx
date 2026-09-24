@@ -34,16 +34,16 @@ const sitemap = [
 
 const socials = [
   {
-    label: "GitHub",
-    href: "https://github.com/rassyz",
-  },
-  {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/rasyid-abdul-ra-uf/",
   },
   {
-    label: "Instagram",
-    href: "https://www.instagram.com/rasyidrra_/",
+    label: "GitHub",
+    href: "https://github.com/rassyz",
+  },
+  {
+    label: "Email",
+    href: "mailto:rasyidabdulrauf05@gmail.com",
   },
   {
     label: "WhatsApp",
@@ -58,12 +58,12 @@ const Footer = () => {
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
             <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
-              Let&apos;s turn data into insights!
+              Let&apos;s build reliable, data-driven solutions.
             </h2>
 
             <ButtonPrimary
               href="mailto:rasyidabdulrauf05@gmail.com"
-              label="Email Me!"
+              label="Get in Touch!"
               icon="chevron_right"
               classes="reveal-up"
             />

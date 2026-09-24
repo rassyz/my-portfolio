@@ -86,8 +86,9 @@ const Contact = () => {
           <h2 className="headline-2 lg:max-w-[12ch] reveal-up">Contact Me</h2>
 
           <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
-            I'm open to Data Analyst opportunities, collaborations, and
-            projects. Feel free to get in touch with me.
+            I'm open to opportunities in Data Analytics, Data Validation, and
+            Quality Assurance, as well as collaborations and projects. Feel free
+            to get in touch with me.
           </p>
 
           <div className="flex items-center gap-2 mt-auto">

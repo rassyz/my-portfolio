@@ -11,8 +11,18 @@ import { ButtonPrimary, ButtonOutline } from "./Button";
 const Hero = () => {
   return (
     <section id="home" className="pt-24 lg:pt-36">
-      <div className="container items-center lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:gap-10">
-        <div>
+      <div
+        className="
+      container
+      items-center
+      lg:grid
+      lg:grid-cols-[minmax(0,1.25fr)_minmax(400px,0.75fr)]
+      lg:gap-10
+      xl:gap-14
+    "
+      >
+        {/* LEFT CONTENT */}
+        <div className="min-w-0">
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg shrink-0">
               <img
@@ -28,29 +38,43 @@ const Hero = () => {
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
-              Open to Data Analyst Internships
+              Open to Data & QA Opportunities
             </div>
           </div>
 
-          <h1 className="headline-1 mt-5 mb-8 lg:mb-10">
+          {/* HEADLINE */}
+          <h1
+            className="
+            headline-1
+            mt-5
+            mb-8
+            lg:mb-10
+
+            !text-[40px]
+            sm:!text-[46px]
+            lg:!text-[clamp(36px,2.9vw,44px)]
+
+            !leading-[1.08]
+          "
+          >
             <span className="block lg:whitespace-nowrap">
               Rasyid Abdul Ra'uf,
             </span>
 
             <span className="block lg:whitespace-nowrap">
-              Aspiring Data Analyst
+              Aspiring Data Analyst & QA
             </span>
 
             <span className="block lg:whitespace-nowrap">
-              with a Web Development
+              with a Software Development
             </span>
 
             <span className="block">Background</span>
           </h1>
 
           <p className="max-w-[55ch] text-zinc-400 text-base leading-relaxed mb-8 lg:mb-10">
-            Turning data into actionable insights through SQL, Excel, and Power
-            BI, supported by a strong foundation in web development.
+            Turning data into meaningful insights and validating application
+            quality through SQL, databases, REST APIs, and data visualization.
           </p>
 
           <div className="flex items-center gap-3">
@@ -60,6 +84,7 @@ const Hero = () => {
               icon="download"
               download={true}
             />
+
             <ButtonOutline
               href="#work"
               label="View Projects"
@@ -68,17 +93,27 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hidden lg:block">
+        {/* RIGHT IMAGE */}
+        <div className="hidden lg:flex justify-end items-center min-w-0">
           <figure
-            className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 
-          via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden"
+            className="
+          w-full
+          max-w-[500px]
+          bg-gradient-to-t
+          from-sky-400
+          via-25%
+          via-sky-400/40
+          to-65%
+          rounded-[60px]
+          overflow-hidden
+        "
           >
             <img
               src="/images/rasyid-bg.png"
               width={656}
               height={800}
               alt="Rasyid Abdul Ra'uf"
-              className="w-full"
+              className="w-full h-auto"
             />
           </figure>
         </div>

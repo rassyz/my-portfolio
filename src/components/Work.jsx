@@ -24,13 +24,22 @@ const works = [
     category: ["data-analyst"],
   },
   {
+    imgSrc: "/images/rest-api.png",
+    title: "Academic Information System REST API",
+    description:
+      "Academic REST API project featuring functional testing, input validation, role-based access testing, and business rule validation using Postman.",
+    tags: ["REST API", "Postman", "MySQL", "Laravel", "Functional Testing"],
+    projectLink: "https://github.com/rassyz/proyek-abl-rest-api",
+    category: ["data-analyst", "development"],
+  },
+  {
     imgSrc: "/images/buah.png",
     title: "Full stack e-commerce 'Just Juice'",
     description:
       "A full-stack e-commerce website developed to manage products, transactions, and online payments.",
     tags: ["MVC", "Development", "Laravel", "Bootstrap 5", "Mid Trans"],
     projectLink: "https://github.com/rassyz/toko-jus",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/happyly.png",
@@ -39,7 +48,7 @@ const works = [
       "A web application providing accessible mental health information and resources for users.",
     tags: ["Bootstrap 5", "Firebase Auth", "Firebase Realtime Database"],
     projectLink: "https://happyly-20978.web.app/",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/wellnes.png",
@@ -48,7 +57,7 @@ const works = [
       "A web-based platform providing reproductive health information and educational resources.",
     tags: ["Bootstrap 5", "Firebase Auth", "Firebase Realtime Database"],
     projectLink: "https://reproductive-wellnes-139ec.web.app/",
-    category: ["web-development"],
+    category: ["development"],
   },
   {
     imgSrc: "/images/shoes.png",
@@ -57,7 +66,7 @@ const works = [
       "An e-commerce website for managing and presenting footwear products through a web-based platform.",
     tags: ["CMS", "Laravel", "Filament", "Bootstrap 5"],
     projectLink: "https://github.com/rassyz/R4R-Shoes",
-    category: ["web-development"],
+    category: ["development"],
   },
 ];
 
@@ -67,12 +76,12 @@ const filterItems = [
     value: "all",
   },
   {
-    label: "Data Analyst",
+    label: "Data & QA",
     value: "data-analyst",
   },
   {
-    label: "Web Development",
-    value: "web-development",
+    label: "Development",
+    value: "development",
   },
 ];
 
@@ -91,8 +100,8 @@ const Work = () => {
 
         <div className="flex flex-col gap-5 mt-3 mb-8 md:flex-row md:items-end md:justify-between">
           <p className="text-zinc-400 max-w-[50ch] reveal-up">
-            A selection of projects showcasing my experience in data analysis
-            and web development.
+            A selection of projects showcasing my experience in data analytics,
+            data validation, API testing, and application development.
           </p>
 
           <div className="flex flex-wrap items-center gap-2">
