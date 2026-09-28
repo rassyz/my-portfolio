@@ -24,6 +24,21 @@ const works = [
     category: ["data-analyst"],
   },
   {
+    imgSrc: "/images/attendify.png",
+    title: "Geofencing Based Attendance System",
+    description:
+      "A mobile attendance system with dynamic geofencing and a web-based admin dashboard.",
+    tags: [
+      "Flutter",
+      "Laravel",
+      "PostgreSQL",
+      "REST API",
+      "Mobile Development",
+    ],
+    projectLink: "https://github.com/rassyz/absensi-geo",
+    category: ["development"],
+  },
+  {
     imgSrc: "/images/rest-api.png",
     title: "Academic Information System REST API",
     description:
