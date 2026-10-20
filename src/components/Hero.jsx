@@ -50,9 +50,9 @@ const Hero = () => {
             mb-8
             lg:mb-10
 
-            !text-[40px]
-            sm:!text-[46px]
-            lg:!text-[clamp(36px,2.9vw,44px)]
+            !text-[48px]
+            sm:!text-[56px]
+            lg:!text-[clamp(44px,3.6vw,54px)]
 
             !leading-[1.08]
           "
@@ -62,14 +62,14 @@ const Hero = () => {
             </span>
 
             <span className="block lg:whitespace-nowrap">
-              Aspiring Data Analyst & QA
+              Data & QA, Built on a
             </span>
 
             <span className="block lg:whitespace-nowrap">
-              with a Software Development
+              Software Development
             </span>
 
-            <span className="block">Background</span>
+            <span className="block">Foundation</span>
           </h1>
 
           <p className="max-w-[55ch] text-zinc-400 text-base leading-relaxed mb-8 lg:mb-10">
@@ -79,7 +79,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-3">
             <ButtonPrimary
-              href="/docs/cv-qa-data-rasyid.pdf"
+              href="/docs/cv-master-rasyid.pdf"
               label="Download CV"
               icon="download"
               download={true}
@@ -94,7 +94,7 @@ const Hero = () => {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="hidden lg:flex justify-end items-center min-w-0">
+        <div className="hidden lg:flex justify-end items-center min-w-0 scale-110">
           <figure
             className="
           w-full

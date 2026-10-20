@@ -21,19 +21,23 @@ const About = () => {
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
             Welcome! I&apos;m Rasyid Abdul Ra'uf, an Informatics Engineering
-            graduate building my career in Data Analytics and Quality Assurance.
-            I work with SQL, Excel, and Power BI to explore, clean, validate,
-            analyze, and visualize data, while my software development
-            background gives me a practical understanding of databases,
-            application data flows, business logic, and REST APIs. Through
-            development and academic projects, I have also gained hands-on
-            experience in functional testing, input validation, API response
-            checking, and role-based access validation. This combination allows
-            me to approach problems from both a data and application
-            perspective. I’m continuously building practical projects to
-            strengthen my skills in data analytics, data validation, API
-            testing, and application quality while preparing for opportunities
-            in Data Analytics and QA.
+            fresh graduate (GPA 3.82) working at the intersection of Data
+            Analytics and Quality Assurance. My foundation is in software
+            development - I completed a 5-month internship as a Laravel
+            Developer Intern at PT Winnicode Garuda Teknologi, building and
+            testing web applications with PHP, Laravel, and MySQL. Today I focus
+            on data: using SQL, Excel, and Power BI to clean, validate, and
+            analyze. In my Sedukopi project, I analyzed 5,000 sales transactions
+            from 20 outlets to uncover revenue trends, average order value, and
+            outlet performance - starting with data quality checks before any
+            analysis. On the application side, I test REST APIs with Postman -
+            functional testing, input validation, API response checking, and
+            role-based access validation - as I did in my Academic Information
+            System API project and my final-year thesis Attendify, a
+            geofencing-based attendance system built with Laravel, Flutter, and
+            PostgreSQL/PostGIS. This combination lets me trace a problem from
+            the interface down to the data itself. I'm currently open to
+            opportunities in Data Analytics, Data Validation, and QA.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
