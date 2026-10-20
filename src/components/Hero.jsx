@@ -58,7 +58,7 @@ const Hero = () => {
           "
           >
             <span className="block lg:whitespace-nowrap">
-              Rasyid Abdul Ra'uf,
+              Rasyid Abdul Ra'uf
             </span>
 
             <span className="block lg:whitespace-nowrap">
