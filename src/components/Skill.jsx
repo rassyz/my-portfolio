@@ -101,7 +101,7 @@ const skillItem = [
   },
   {
     imgSrc: "/images/github.svg",
-    label: "Github",
+    label: "GitHub",
     desc: "Version Control",
     category: ["development"],
   },

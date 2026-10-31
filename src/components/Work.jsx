@@ -15,6 +15,30 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: "/images/rest-api.png",
+    title: "Academic Information System REST API",
+    description:
+      "Academic REST API project featuring functional testing, input validation, role-based access testing, and business rule validation using Postman.",
+    tags: ["REST API", "Postman", "MySQL", "Laravel", "Functional Testing"],
+    projectLink: "https://github.com/rassyz/proyek-abl-rest-api",
+    category: ["data-analyst", "development"],
+  },
+  {
+    imgSrc: "/images/attendify.png",
+    title: "Geofencing Based Attendance System",
+    description:
+      "A mobile attendance system with dynamic geofencing and a web-based admin dashboard.",
+    tags: [
+      "Flutter",
+      "Laravel",
+      "PostgreSQL",
+      "REST API",
+      "Mobile Development",
+    ],
+    projectLink: "https://github.com/rassyz/absensi-geo",
+    category: ["development"],
+  },
+  {
     imgSrc: "/images/sedukopi-analytics.png",
     title: "Sedukopi Sales & Operations Analytics",
     description:
@@ -39,20 +63,11 @@ const works = [
     category: ["development"],
   },
   {
-    imgSrc: "/images/rest-api.png",
-    title: "Academic Information System REST API",
-    description:
-      "Academic REST API project featuring functional testing, input validation, role-based access testing, and business rule validation using Postman.",
-    tags: ["REST API", "Postman", "MySQL", "Laravel", "Functional Testing"],
-    projectLink: "https://github.com/rassyz/proyek-abl-rest-api",
-    category: ["data-analyst", "development"],
-  },
-  {
     imgSrc: "/images/buah.png",
     title: "Full stack e-commerce 'Just Juice'",
     description:
       "A full-stack e-commerce website developed to manage products, transactions, and online payments.",
-    tags: ["MVC", "Development", "Laravel", "Bootstrap 5", "Mid Trans"],
+    tags: ["MVC", "Development", "Laravel", "Bootstrap 5", "Midtrans"],
     projectLink: "https://github.com/rassyz/toko-jus",
     category: ["development"],
   },
@@ -60,7 +75,7 @@ const works = [
     imgSrc: "/images/happyly.png",
     title: "Web Mental Health",
     description:
-      "A web application providing accessible mental health information and resources for users.",
+      "A web application providing accessible mental health information and resources for users, built with Firebase Authentication and a realtime database.",
     tags: ["Bootstrap 5", "Firebase Auth", "Firebase Realtime Database"],
     projectLink: "https://happyly-20978.web.app/",
     category: ["development"],
@@ -69,7 +84,7 @@ const works = [
     imgSrc: "/images/wellnes.png",
     title: "Web Reproductive Health",
     description:
-      "A web-based platform providing reproductive health information and educational resources.",
+      "A web-based platform providing reproductive health information and educational resources for users, built with Firebase Authentication and a realtime database.",
     tags: ["Bootstrap 5", "Firebase Auth", "Firebase Realtime Database"],
     projectLink: "https://reproductive-wellnes-139ec.web.app/",
     category: ["development"],
