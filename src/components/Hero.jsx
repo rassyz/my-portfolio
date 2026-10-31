@@ -38,7 +38,7 @@ const Hero = () => {
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
-              Open to Data & QA Opportunities
+              Open to QA, Data & Software Development Opportunities
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const Hero = () => {
             </span>
 
             <span className="block lg:whitespace-nowrap">
-              Data & QA, Built on a
+              QA & Data, Built on a
             </span>
 
             <span className="block lg:whitespace-nowrap">
@@ -73,8 +73,9 @@ const Hero = () => {
           </h1>
 
           <p className="max-w-[55ch] text-zinc-400 text-base leading-relaxed mb-8 lg:mb-10">
-            Turning data into meaningful insights and validating application
-            quality through SQL, databases, REST APIs, and data visualization.
+            Validating application quality and data accuracy through software
+            testing, SQL, databases, and REST APIs, and building the
+            applications behind them.
           </p>
 
           <div className="flex items-center gap-3">

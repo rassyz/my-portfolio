@@ -115,8 +115,8 @@ const Work = () => {
 
         <div className="flex flex-col gap-5 mt-3 mb-8 md:flex-row md:items-end md:justify-between">
           <p className="text-zinc-400 max-w-[50ch] reveal-up">
-            A selection of projects showcasing my experience in data analytics,
-            data validation, API testing, and application development.
+            A selection of projects showcasing my experience in software
+            testing, data validation, API testing, and application development.
           </p>
 
           <div className="flex flex-wrap items-center gap-2">

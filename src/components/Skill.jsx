@@ -20,19 +20,19 @@ const skillItem = [
   {
     imgSrc: "/images/sql.svg",
     label: "SQL",
-    desc: "Data Querying & Analysis",
+    desc: "Data Querying & Validation",
     category: ["data-analyst"],
   },
   {
     imgSrc: "/images/excel.svg",
     label: "Excel",
-    desc: "Data Analysis & Reporting",
+    desc: "Data Validation & Reporting",
     category: ["data-analyst"],
   },
   {
     imgSrc: "/images/power-bi.svg",
     label: "Power BI",
-    desc: "Data Visualization & BI",
+    desc: "Data Visualization",
     category: ["data-analyst"],
   },
   {
@@ -173,8 +173,8 @@ const Skill = () => {
 
         <div className="flex flex-col gap-5 mt-3 mb-8 md:flex-row md:items-end md:justify-between">
           <p className="text-zinc-400 max-w-[50ch] reveal-up">
-            A collection of tools I use for data analysis, data validation, API
-            testing, database management, and application development.
+            A collection of tools I use for software testing, data validation,
+            database management, and application development.
           </p>
 
           <div className="flex flex-wrap items-center gap-2">
