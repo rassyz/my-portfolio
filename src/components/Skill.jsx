@@ -21,37 +21,49 @@ const skillItem = [
     imgSrc: "/images/sql.svg",
     label: "SQL",
     desc: "Data Querying & Validation",
-    category: ["data-analyst"],
+    category: ["data"],
   },
   {
     imgSrc: "/images/excel.svg",
     label: "Excel",
     desc: "Data Validation & Reporting",
-    category: ["data-analyst"],
+    category: ["data"],
   },
   {
     imgSrc: "/images/power-bi.svg",
     label: "Power BI",
     desc: "Data Visualization",
-    category: ["data-analyst"],
+    category: ["data"],
   },
   {
     imgSrc: "/images/postman.png",
     label: "Postman",
     desc: "REST API Testing",
-    category: ["data-analyst", "development"],
+    category: ["data", "development"],
   },
   {
     imgSrc: "/images/mysql2.svg",
     label: "MySQL",
     desc: "Database & SQL",
-    category: ["data-analyst", "development"],
+    category: ["data", "development"],
+  },
+  {
+    imgSrc: "/images/postgresql.svg",
+    label: "PostgreSQL",
+    desc: "Database & SQL",
+    category: ["data", "development"],
+  },
+  {
+    imgSrc: "/images/python.svg",
+    label: "Python",
+    desc: "Data Processing & Scripting",
+    category: ["data", "development"],
   },
   {
     imgSrc: "/images/navicat.png",
     label: "Navicat Premium",
     desc: "Database Management",
-    category: ["data-analyst"],
+    category: ["data"],
   },
 
   // =========================
@@ -150,7 +162,7 @@ const filterItems = [
   },
   {
     label: "Data & SQL",
-    value: "data-analyst",
+    value: "data",
   },
   {
     label: "Development",
@@ -173,7 +185,7 @@ const Skill = () => {
 
         <div className="flex flex-col gap-5 mt-3 mb-8 md:flex-row md:items-end md:justify-between">
           <p className="text-zinc-400 max-w-[50ch] reveal-up">
-            A collection of tools I use for software testing, data validation,
+            A collection of tools I use for data engineering, data validation,
             database management, and application development.
           </p>
 

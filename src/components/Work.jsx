@@ -15,13 +15,40 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: "/images/sedukopi-analytics.png",
+    title: "Sedukopi Sales & Operations Analytics",
+    description:
+      "Analysis of 5,000 sales transactions from 20 outlets, starting with data quality checks and cleaning, then uncovering revenue trends, peak hours, and outlet performance insights.",
+    tags: ["SQL", "Excel", "Power BI"],
+    projectLink: "https://github.com/rassyz/sedukopi-data-analytics",
+    category: ["data"],
+  },
+  {
     imgSrc: "/images/rest-api.png",
     title: "Academic Information System REST API",
     description:
       "Academic REST API project featuring functional testing, input validation, role-based access testing, and business rule validation using Postman.",
     tags: ["REST API", "Postman", "MySQL", "Laravel", "Functional Testing"],
     projectLink: "https://github.com/rassyz/proyek-abl-rest-api",
-    category: ["data-analyst", "development"],
+    category: ["data", "development"],
+  },
+  {
+    imgSrc: "/images/ramz-app.png",
+    title: "Trade & Payment Services Monitoring System",
+    description:
+      "A production web app for monitoring international trade and payment services, freelance client work with LC document management and an automated document-checking engine.",
+    tags: ["Laravel", "Livewire", "MariaDB"],
+    projectLink: "https:ramz.rassyz.my.id",
+    category: ["development"],
+  },
+  {
+    imgSrc: "/images/rest-api.png",
+    title: "Academic Information System REST API",
+    description:
+      "Academic REST API project featuring functional testing, input validation, role-based access testing, and business rule validation using Postman.",
+    tags: ["REST API", "Postman", "MySQL", "Laravel", "Functional Testing"],
+    projectLink: "https://github.com/rassyz/proyek-abl-rest-api",
+    category: ["data", "development"],
   },
   {
     imgSrc: "/images/attendify.png",
@@ -37,15 +64,6 @@ const works = [
     ],
     projectLink: "https://github.com/rassyz/absensi-geo",
     category: ["development"],
-  },
-  {
-    imgSrc: "/images/sedukopi-analytics.png",
-    title: "Sedukopi Sales & Operations Analytics",
-    description:
-      "Sales performance and outlet operations analysis to uncover revenue trends, peak hours, and business insights.",
-    tags: ["SQL", "Excel", "Power BI"],
-    projectLink: "https://github.com/rassyz/sedukopi-data-analytics",
-    category: ["data-analyst"],
   },
   {
     imgSrc: "/images/buah.png",
@@ -91,8 +109,8 @@ const filterItems = [
     value: "all",
   },
   {
-    label: "Data & QA",
-    value: "data-analyst",
+    label: "Data & SQL",
+    value: "data",
   },
   {
     label: "Development",
@@ -115,8 +133,8 @@ const Work = () => {
 
         <div className="flex flex-col gap-5 mt-3 mb-8 md:flex-row md:items-end md:justify-between">
           <p className="text-zinc-400 max-w-[50ch] reveal-up">
-            A selection of projects showcasing my experience in software
-            testing, data validation, API testing, and application development.
+            A selection of projects showcasing my work in data engineering, data
+            quality, analytics, and application development.
           </p>
 
           <div className="flex flex-wrap items-center gap-2">
