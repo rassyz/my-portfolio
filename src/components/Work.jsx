@@ -38,7 +38,7 @@ const works = [
     description:
       "A production web app for monitoring international trade and payment services, freelance client work with LC document management and an automated document-checking engine.",
     tags: ["Laravel", "Livewire", "MariaDB"],
-    projectLink: "https:ramz.rassyz.my.id",
+    projectLink: "https://ramz.rassyz.my.id",
     category: ["development"],
   },
   {
